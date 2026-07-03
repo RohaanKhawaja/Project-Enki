@@ -1,0 +1,131 @@
+\documentclass[11pt, a4paper]{article}
+% Layout / typography / colour
+\usepackage[a4paper,margin=2cm]{geometry} % Page size and margins
+\usepackage{graphicx}                    % Include images
+\usepackage{float}                       % Improved float placement control
+\usepackage{array}                       % Extended table column definitions
+\usepackage{multirow}                    % Multi-row cells in tables
+\usepackage{subcaption}                  % Subfigures with captions
+\usepackage{bm}                          % Bold maths symbols
+\usepackage{microtype}                   % Improved justification and kerning
+\usepackage{xcolor}                      % Colour support
+% Maths
+\usepackage{amsmath}                     % Core maths environments
+\usepackage{amsfonts}                    % Additional maths fonts
+\usepackage{amssymb}                     % Extended maths symbols
+\usepackage{xfp}                         % Automatic maths calculations
+\usepackage{mathtools}                   % Extensions and fixes for amsmath
+\usepackage{siunitx}                     % Consistent units and quantities
+% Environments / code
+\usepackage{amsthm}                      % Theorem-like environments
+\usepackage{thmtools}                    % Enhanced theorem management
+\usepackage{listings}                    % Source code listings
+% Diagrams
+\usepackage{tikz}                        % Vector graphics and diagrams
+\usepackage{circuitikz}                  % Electrical circuit diagrams
+\usepackage{pgfplots}                    % Plots and data visualisation
+\pgfplotsset{compat=1.18}                % PGFPlots compatibility level
+\usetikzlibrary{arrows.meta,positioning,calc,shapes.geometric} % Common TikZ helpers
+% References / links
+\usepackage{cite}                        % Compressed numeric citations
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref} % Hyperlinks in PDF
+% Glossaries
+\usepackage{cleveref}                    % Intelligent cross-references
+% Structure
+\usepackage{fancyhdr}                    % Custom headers and footers
+\usepackage{sectsty}                     % Section heading styling
+\usepackage{titling}                     % Control over title formatting
+% Lists / utilities
+\usepackage{enumitem}                    % Customisable list environments
+\usepackage{xparse}                      % Modern command definitions
+\usepackage{etoolbox}                    % Programming utilities and conditionals
+
+% Listings base configuration. Listing Usage: \begin{lstlisting}[style=style, caption={Caption}, label={lst:label}]\end{lstlisting}
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+  stringstyle=\color{orange},
+  commentstyle=\color{gray}\itshape,
+  numberstyle=\tiny\color{gray},
+  numbers=left,
+  numbersep=8pt,
+  frame=single,
+  rulecolor=\color{black},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=2,
+  showstringspaces=false,
+  captionpos=b,
+  keepspaces=true
+}
+% C
+\lstdefinestyle{cStyle}{
+  language=C,
+  morekeywords={uint8_t,uint16_t,uint32_t,size_t}
+}
+% C++
+\lstdefinestyle{cppStyle}{
+  language=C++,
+  morekeywords={constexpr,nullptr,override,noexcept}
+}
+% Python
+\lstdefinestyle{pythonStyle}{
+  language=Python,
+  morekeywords={self}
+}
+% MATLAB
+\lstdefinestyle{matlabStyle}{
+  language=Matlab,
+  morekeywords={end,function}
+}
+% Java
+\lstdefinestyle{javaStyle}{
+  language=Java
+}
+% Bash
+\lstdefinestyle{bashStyle}{
+  language=bash,
+  morekeywords={sudo,cd,ls,grep,awk,sed}
+}
+% LaTeX
+\lstdefinestyle{latexStyle}{
+  language={[LaTeX]TeX},
+  morekeywords={usepackage,newcommand,begin,end}
+}
+% Inline code
+\newcommand{\code}[1]{\lstinline{#1}}
+
+% Dark Blue heading colour
+\definecolor{header}{RGB}{30,50,100}
+\sectionfont{\color{header}}
+\subsectionfont{\color{header}}
+\subsubsectionfont{\color{header}}
+
+\title{Project SunSat: Project Enki \\ \textbf{Critical Design Review}}
+\author{R.Khawaja, L.Peintre, M.Tsui}
+\date{}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\tableofcontents
+\pagebreak
+
+% Header Style
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Project SunSat: Project Enki}
+\fancyhead[R]{Critical Design Review}
+\fancyfoot[C]{\thepage}
+
+\section{Introduction}
+
+\pagebreak
+\bibliography{references}
+\end{document}
