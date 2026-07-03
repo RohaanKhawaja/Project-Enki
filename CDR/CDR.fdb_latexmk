@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex CDR"] 1783093136.09413 "CDR.aux" "CDR.bbl" "CDR" 1783093325.08875 0
+["bibtex CDR"] 1783093996.14076 "CDR.aux" "CDR.bbl" "CDR" 1783093998.29953 0
   "C:/Users/Rohaan/AppData/Local/Programs/MiKTeX/bibtex/bib/feupphdteses/references.bib" 1366811700 2206 985e03fb36d872d306e76cfacc160693 ""
   "C:/Users/Rohaan/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "CDR.aux" 1783093324 312 92aec2b9b47485ca5775753d8d26022a "pdflatex"
+  "CDR.aux" 1783093997 1279 2d8ded555ff5669d1f5ebd8599b895a4 "pdflatex"
   (generated)
   "CDR.bbl"
   "CDR.blg"
   (rewritten before read)
-["pdflatex"] 1783093322.93455 "CDR.tex" "CDR.pdf" "CDR" 1783093325.08964 0
+["pdflatex"] 1783093996.36321 "CDR.tex" "CDR.pdf" "CDR" 1783093998.29995 0
   "C:/Users/Rohaan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1782596072 174077 7cf8a0fe6442911f8ede2495007903af ""
   "C:/Users/Rohaan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739212590 12013877 1809ef0744ff0c3c31e2f68e44f683f5 ""
   "C:/Users/Rohaan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -270,11 +270,11 @@
   "C:/Users/Rohaan/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/Rohaan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Rohaan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "CDR.aux" 1783093324 312 92aec2b9b47485ca5775753d8d26022a "pdflatex"
-  "CDR.bbl" 1783093136 901 628a2a8c68e066122d1514411e0b8455 "bibtex CDR"
-  "CDR.out" 1783093324 103 9814c2d956916adb9290eca4e25c967a "pdflatex"
-  "CDR.tex" 1783093321 4424 aa5c1c903b50262d4a2043cfd50ebc0a ""
-  "CDR.toc" 1783093324 68 67461dc3484237a0a884eed17df73836 "pdflatex"
+  "CDR.aux" 1783093997 1279 2d8ded555ff5669d1f5ebd8599b895a4 "pdflatex"
+  "CDR.bbl" 1783093996 901 628a2a8c68e066122d1514411e0b8455 "bibtex CDR"
+  "CDR.out" 1783093997 1449 e8f76993c06ccc18209d7a00732555f6 "pdflatex"
+  "CDR.tex" 1783093985 4711 d8b3751360685cb73c3335a1ef800e0b ""
+  "CDR.toc" 1783093997 707 3b48692f1764e93aba112449c09ed745 "pdflatex"
   (generated)
   "CDR.aux"
   "CDR.log"
